@@ -1,0 +1,33 @@
+html,body{
+	height: 100%;
+	width: 100%;
+	font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+}
+
+.quesion{
+	margin-top: 10%;
+	opacity: 0;
+	display: none;
+}
+.quesion.current{
+	display: block;
+}
+
+.choice{
+	margin-top:5%;
+
+}
+
+.answer_wrong{
+	border-color:#333;
+	background-color:#D7314B;
+	-webkit-transition:background-color 0.5s, -webkit-transform 0.5s;
+    transition:background-color 0.5s, transform 0.5s;
+}
+
+.answer_correct{	
+	border-color:#333;
+	background-color:#30D781;
+	-webkit-transition:background-color 0.5s, -webkit-transform 0.5s;
+    transition:background-color 0.5s, transform 0.5s;
+}
